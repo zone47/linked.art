@@ -99,7 +99,7 @@ top.carried_out_by = vocab.MuseumOrg(ident="http://vocab.getty.edu/ulan/50030466
 top.took_place_at = vocab.City(ident="http://vocab.getty.edu/tgn/7013596", label="Chicago")
 top.used_specific_object = model.Set(ident="exhset", label="Exhibition objects")
 top.influenced_by = model.PropositionalObject(ident="exhidea", label="Idea for Manet and Modern Beauty")
-top.part_of = model.Activity(ident="exhab", label="Manet and Modern Beauty")
+top.part_of = model.Activity(ident="exhab/1", label="Manet and Modern Beauty")
 ```
 
 The larger multi-venue exhibition activity.
